@@ -1,0 +1,140 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 25%;
+  transition: all 0.5s;
+  flex-direction: column;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.swiper-wrapper {
+  align-items: center;
+}
+
+.first {
+  background-image: url(first.jfif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.first:hover {
+  background-size: 120% 120%;
+}
+
+.second {
+  background-image: url(second.jfif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.second:hover {
+  background-size: 120% 120%;
+}
+
+.third {
+  background-image: url(third.jfif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.third:hover {
+  background-size: 120% 120%;
+}
+
+.fourth {
+  background-image: url(fourth.jfif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.fourth:hover {
+  background-size: 120% 120%;
+}
+
+.fifth {
+  background-image: url(fifth.jfif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.fifth:hover {
+  background-size: 120% 120%;
+}
+
+.sixth {
+  background-image: url(sixth.jfif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.sixth:hover {
+  background-size: 120% 120%;
+}
+
+.seventh {
+  background-image: url(seventh.jfif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.seventh:hover {
+  background-size: 120% 120%;
+}
+
+.eighth {
+  background-image: url(eighth.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.eighth:hover {
+  background-size: 120% 120%;
+}
+
+.ninth {
+  background-image: url(ninth.jfif);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.ninth:hover {
+  background-size: 120% 120%;
+}
+
+button {
+  border-radius: 5px;
+  padding: 5px 20px;
+}/*# sourceMappingURL=style.css.map */
